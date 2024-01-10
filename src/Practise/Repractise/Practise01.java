@@ -1,4 +1,4 @@
-package Practise;
+package Practise.Repractise;
 
 import java.util.Scanner;
 
@@ -23,6 +23,24 @@ public class Practise01 {
         }
         else {
             System.out.println("Weird");
+        }
+
+        fibonachiSeries();
+    }
+
+    public static void fibonachiSeries(){
+        int n1 = 2;
+        int n2 = 3;
+        int num = 0;
+        int len = 0;
+
+        while(len<=10){
+            num = n1 + n2;
+            System.out.print(num+" ");
+            n1 = n2;
+            n2 = num;
+            len++;
+
         }
     }
 }

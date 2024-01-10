@@ -9,7 +9,7 @@ public class List01 {
 
         // ArrayList
         List<String> stringlist = new ArrayList<>();
-
+        List<Object> objList = new ArrayList<>();
         stringlist.add("SQL");
         stringlist.add("Python");
         stringlist.add(2,"Kotlin");
